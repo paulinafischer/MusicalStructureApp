@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+
+    <string name="category_heavy_metal">Heavy Metal</string>
+    <string name="category_black_metal">Black Metal</string>
+    <string name="category_death_metal">Death Metal</string>
+
+</resources>

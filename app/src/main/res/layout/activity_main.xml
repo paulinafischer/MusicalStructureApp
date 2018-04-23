@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructureapp.MainActivity">
+
+    <!-- Heavy Metal category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@drawable/firet"
+         >
+        <TextView
+            android:id="@+id/heavyMetal"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_heavy_metal" />
+    </FrameLayout>
+
+    <!-- Black Metal category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@drawable/blackt">
+        <TextView
+            android:id="@+id/blackMetal"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_black_metal" />
+    </FrameLayout>
+
+    <!-- Death Metal category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@drawable/bloodt">
+        <TextView
+            android:id="@+id/deathMetal"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_death_metal"/>
+    </FrameLayout>
+
+</LinearLayout>

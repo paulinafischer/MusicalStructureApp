@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/category_black">
+    <Button
+        android:onClick="openMenuHome"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/text_list_button"
+        android:id="@+id/testButton"
+        android:drawableTop="@drawable/ic_action_return"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/grunget"
+        android:paddingTop="@dimen/text_list_padding_top"/>
+    <ListView
+    android:id="@+id/list"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        />
+</RelativeLayout>

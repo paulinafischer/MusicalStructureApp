@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#232b2b</color>
+    <color name="colorPrimaryDark">#0e1111</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- Background color for app -->
+    <color name="tan_background">#000000</color>
+
+    <!-- Background color for the heavy metal category -->
+    <color name="category_heavy">#414a4c</color>
+
+    <!-- Background color for black metal category -->
+    <color name="category_black">#3b444b</color>
+
+    <!-- Background color for the death metal category -->
+    <color name="category_death">#353839</color>
+
+</resources>
